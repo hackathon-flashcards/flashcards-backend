@@ -1,0 +1,25 @@
+{
+  "name": "flashcards-backend",
+  "version": "1.0.0",
+  "description": "Hackathon Flashcards",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node index.js"
+  },
+  "repository": "https://github.com/hackathon-flashcards/flashcards-backend.git",
+  "author": "Dani O'Neal <droneal11015@gmail.com>",
+  
+
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.18.1",
+    "node": "^12.5.0",
+    "nodemon": "^1.19.1",
+    "schema": "^0.2.1",
+    "sqlite3": "^4.0.9"
+  }
+}
