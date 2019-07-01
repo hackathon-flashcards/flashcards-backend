@@ -7,12 +7,12 @@ server.use(cors());
 server.use(helmet());
 server.use(express.json());
 
-const androidRouter = require('./routes/android');
-const computerScienceRouter = require('./routes/computerscience');
-const dataScienceRouter = require('./routes/datascience');
-const fullStackRouter = require('./routes/fullstack');
-const iosRouter = require('./routes/ios');
-const uxRouter = require('./routes/ux')
+const androidRouter = require('./routes/androidRouter');
+const computerScienceRouter = require('./routes/computerscienceRouter');
+const dataScienceRouter = require('./routes/datascienceRouter');
+const fullStackRouter = require('./routes/fullstackRouter');
+const iosRouter = require('./routes/iosRouter');
+const uxRouter = require('./routes/uxRouter')
 
 server.use('/api/android', androidRouter);
 server.use('/api/computerScience', computerScienceRouter);
